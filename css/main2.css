@@ -1,0 +1,124 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+  color: #999;
+}
+
+header {
+  background: #A978CE;
+  border-color: #442D56;
+  margin: 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+  float: left;
+}
+
+#wrapper {
+  margin: 0 auto;
+  padding: 0 5%;
+  clear:both;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1, h2 {
+  color: #fff;
+  font-weight: normal;
+}
+
+h1 {
+  font-family: 'Changa One', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  /* use em to make fonts relative to body font size - DEFAULT 16px */
+
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  /* -5px top     0 left/right      0 bottom */
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+a {
+  text-decoration: none;
+  color: #A978CE;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  background: #A978CE;
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  /* inline block was width and height properties */
+}
+
+nav a {
+  font-weight: 800; /* how bold it will be */
+  padding: 15px 10px;
+}
+
+nav a, nav a:visited {
+  color: #fff;
+}
+
+nav a.selected, nav a:hover {
+  color: #632394;
+}
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  width: 95%;
+  margin: 2.5%;
+  background-color: #E4DDEA;
+  float:left;
+
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #442D56;
+}
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}

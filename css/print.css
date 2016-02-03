@@ -1,0 +1,17 @@
+body { background: white; }
+
+nav {
+    display: none; }
+
+#wrapper {
+    width: auto;
+    border: 0;
+    margin: 0 5%;
+    padding: 0;
+}
+
+#gallery li {
+    float: left;
+    width: 28%;
+    margin: 2.5%;
+}
