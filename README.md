@@ -1,3 +1,4 @@
-# InternetProgrSp16
-Internet Programming Spring Semester 2016
+# Internet Programming
+Internet Programming 
 Responsive CSS exercise
+Website with header and responsive image gallery
